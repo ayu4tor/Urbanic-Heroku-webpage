@@ -5,14 +5,125 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <Title>   
+        Change the background color using Inline style attribute
+        </Title>
+        <Title>   
+        Change the background color using Embedded Style 
+        </Title>
+        
+        
+    <style>
+      
+        /* wildcard styling */
+        * {
+            box-sizing: border-box;
+        }
+          
+        /* padding for whole body */
+        body {
+            padding: 15px;
+        }
+          
+        /* styling body */
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+          
+        h1 {
+            color: rgba(248, 237, 237, 0.987);
+        }
+          
+        /* anchor tag decoration */
+        a {
+            text-decoration: none;
+            color: #eee8e8;
+        }
+          
+        a:hover {
+            color: rgb(243, 236, 236);
+        }
+          
+        /* paragraph tag decoration */
+        p {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 4;
+            overflow: hidden;
+      
+        }
+          
+        /* row and column decoration */
+        .row {
+            margin: 0px -18px;
+            padding: 8px;
+        }
+          
+        .row > .column {
+            padding: 6px;
+        }
+          
+        .column {
+            float: left;
+            width: 25%;
+        }
+          
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+          
+        /* content decoration */
+        .content {
+            background-color: white;
+            padding: 10px;
+            border: 1px solid gray;
+        }
+          
+        /* window size 850 width set */
+        @media screen and (max-width: 850px) {
+            .column {
+                width: 50%;
+            }
+        }
+      
+        /* window size 400 width set */
+        @media screen and (max-width: 400px) {
+            .column {
+                width: 100%;
+            }
+        }
+
+    </style>
 </head>
-<body>
-    <h1>Ayushi Agarwal</h1>
-       <p> Hey , Ayushi here !!
-           <h1>College Name</h1>
-        <em>Rajasthan Institute Of Engineering and Technology</em>
-        <li style ="color:blue">ayu4tor(GitHub)</li>
-    </p>
-    
+<body> 
+             <ul> 
+                <div id=" top header">
+                    <h1>Hye I' m Ayushi Agarwal👩</h1> 
+                <li><a href="">Home</a></li>
+                <li><a href="https://www.blogger.com/blog/themes/5920042618364638175">Blog</a></li>
+                <li><a href="https://www.linkedin.com/in/ayushi-agarwal-1946671b9 ">Contact</a></li>
+                <li><a href="https://github.com/ayu4tor">GitHub Profile</a></li>
+                <li><a href="https://twitter.com/Ayushii68284285?t=MjeN1MHtnDdwqF45pMCpXg&s=0">Twitter</a></li>
+            </ul>
+        
+                 <Body style="background-color:rgb(255, 0, 85)"> 
+            <div>
+                 <h3> - I completed my 10th from Central Academy School & 12th from Noble International School.</h3>
+                 <h3> - I’m  Pursuing B.tech in Computer Science & Engineering from Rajasthan Institute of Engineering and Technology. </h3>
+                 <h3> - I am learning HTML-CSS , C++ , Mysql , Java , PHP and Python!!  </h3> 
+                 <h3> - I am doing work on my Github website - ayu4tor, doing work on google console and firebase console.  </h3>
+                 <h3> - </h3>
+                 <h3> - Shiva Life Spreadsheet </h3></p>
+                <h1> </h1>     
+                
+            </div>
+            
+
+
+             
+        </div>
 </body>
 </html>
